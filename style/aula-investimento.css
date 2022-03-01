@@ -1,0 +1,50 @@
+.descricao-curso{
+    display: flex;
+    margin: 7% 0 7% 7%;
+}
+
+.descricao{
+    width: 50%;
+}
+
+.descricao h1{
+    color: #FF4081;
+    font-size: 55px;
+}
+
+.descricao p{
+    font-size: 20px;
+}
+
+.descricao-curso img{
+    height: 381px;
+    width: 380px;
+    margin-left: 10%;
+}
+
+.aulas{
+   background-color: #F6F6F6;
+   display: flex;
+   flex-direction: column;       
+}
+
+.aulas-modulo{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin: 7% 0;
+}
+
+.aula iframe{
+    height: 261px;
+    width: 462px;
+}
+
+.info-aula{
+    width: 30%;
+    /* margin-left: 10%; */
+}
+
+hr{
+    margin-left: 5%;
+}

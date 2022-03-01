@@ -1,0 +1,52 @@
+main{
+    margin: 10% 0 0 7%;
+}
+
+h1{
+    color: #FF4081;
+    font-size: 60px;
+}
+
+#sub-titulo{
+    color: #555555;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.tipos-cursos{
+    display: flex; 
+    margin-top: 7%;
+    margin-bottom: 5%;   
+}
+
+.tipos-cursos img {    
+    width: 100%;  
+    margin-top: 2%; 
+}
+
+.descricao{
+    margin: 0 0 3% 15%;
+}
+
+.descricao h3{
+    color: #FF4081;
+    font-size: 35px;    
+}
+
+.descricao p{
+    font-size: 16px;
+    margin: 8% 15% 13% 0;
+}
+
+.descricao a{
+    height: 51px;
+    width: 233px;
+    background-color: #419488;
+    color: #FFFFFF;
+    border-radius: 62px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1.5% 5%;    
+    
+}
+

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@200;300;400&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap');
+
 body{
     margin: 0;
     width: 1440px;
@@ -28,6 +30,113 @@ header img{
     font-size: 20px;
 }
 
+.container1{
+    display: flex;    
+    margin: 8% 0 0 8%;    
+}
+
+.msg-inicial{
+    display: flex;
+    flex-direction: column;    
+}
+
+.msg-inicial h1{
+    color: #FF4081;
+    font-size: 60px;
+}
+
+.msg-inicial h5{
+    color: #555555;
+    font-size: 27px;
+} 
+
+.msg-inicial a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    width: 268px;
+    color: #FF4081;
+    font-size: 27px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    text-decoration: none;
+}
+
+.container1 img{
+    width: 501px;
+    height: 511px;    
+    margin: 5% 0 5% 10% ;
+}
+
+.container2{
+    background-color:#F6F6F6;
+    display: flex;
+    justify-content: space-around;      
+
+}
+
+.aula{
+    height: 270px;
+    width: 344px;        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 0 10% 0;
+}
+
+.aula img{
+    height: 200px;
+}
+
+.aula h2{
+    color: #FF4081;
+    margin-top: 7%;
+}
+
+.aula p{    
+    text-align: center;
+    font-size: 17px;
+    padding: 0 27px;
+    margin-top: 0;
+}
+
+.comecar{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 233px;
+    padding: 10px 0;
+    color: #FFFFFF;
+    background-color: #FF4081;      
+    border-radius: 62px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.container3{
+    margin: 7% 0 20% 10%;
+}
+
+.container3 h2{
+    color: #009688;
+    font-family: "Nunito";
+    font-size: 37px;
+}
+
+.depoimento{
+    width: 495px;
+    margin: 5% 10% 0 0;
+}
+
+hr{    
+    width: 90%;
+    height: 2px;
+    background-color: #C4C4C4;
+    margin-left: 0;
+}
+
 footer{
     height: 207px;
     background-color: #419488;
@@ -47,7 +156,7 @@ footer img{
 }
 
 .botoes-footer{
-    display: flex;
+    display: flex;    
     flex-direction: column;
     gap: 13px;
 }

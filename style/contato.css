@@ -1,0 +1,43 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+
+.formulario-contato h1{
+    color: #FF4081;
+    font-size: 40px;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input{
+    height: 46px;
+}
+
+textarea{
+    height: 193px;
+    padding-top: 5%;
+}
+
+button{
+    background-color: #FF4081;
+    color: #FFFFFF;
+    width: 108px;
+    height: 32px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+input, textarea{
+    color: #686868;
+    border-radius: 7px;
+    width: 493px;   
+    padding-left: 5%; 
+    border: #686868 solid 1px;
+}
+
