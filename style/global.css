@@ -30,6 +30,12 @@ header img{
     font-size: 20px;
 }
 
+.lista-header a{
+    color: #FDFDFD;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .container1{
     display: flex;    
     margin: 8% 0 0 8%;    
@@ -83,7 +89,7 @@ header img{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 10% 0 10% 0;
+    margin: 10% 0 10% 0
 }
 
 .aula img{
@@ -153,6 +159,11 @@ footer img{
 .lista-footer{
     list-style: none;
     font-size: 20px;
+}
+
+.lista-footer a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .botoes-footer{

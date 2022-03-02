@@ -1,0 +1,43 @@
+.container1-post{
+    margin: 10% 14%;    
+}
+
+.container1-post h1{
+    color: #FF4081;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.container1-post h7{
+    color: #9D9D9D;
+    font-size: 18px;
+    margin-left: 44%;  
+}
+
+.container1-post img{
+    width: 1032px;
+    height: 465px;
+    margin-top: 10%;
+}
+
+.container1-post p{
+    font-size: 18px;  
+    margin-top: 7%;  
+}
+
+.container2-blog{
+    background-color:#F6F6F6;
+}
+
+.container2-blog h1{
+    color: #FF4081;
+    font-size: 50px;
+    text-align: center;    
+    padding-top: 7%;    
+}
+
+.aulas{
+    display: flex;
+    justify-content: space-around;
+}

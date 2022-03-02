@@ -1,0 +1,52 @@
+.container1-blog{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+
+.descricao-blog{
+    width: 30%;
+    margin: 4% 0 0 5%;
+}
+
+.descricao-blog h1{
+    color: #009688;
+    font-size: 47px;
+    
+}
+
+.descricao-blog{
+    font-size: 20px;
+}
+
+.container2-blog{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.posts img{
+    width: 518px;
+    height: 259px;
+}
+
+.posts h4{
+    color: #FF4081;
+    font-size: 30px;
+    margin-top: 19px;
+    margin-bottom: 0;
+}
+
+.posts p{
+    font-size: 17px;
+    width: 516px;
+}
