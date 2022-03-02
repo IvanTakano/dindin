@@ -51,8 +51,21 @@ input, textarea{
     }
 }
 
+@media screen and (max-width: 768px){
+    input, textarea{
+        width: 400px;        
+    }    
+    .formulario-contato{
+        text-align: center;                   
+    }    
+}
+
 @media screen and (max-width: 480px){
     input, textarea{
         width: 100%;        
     }
+    .contato{
+        margin-left: 1%;
+    } 
+
 }

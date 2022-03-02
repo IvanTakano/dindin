@@ -83,6 +83,7 @@ header img{
     display: flex;
     justify-content: space-around;      
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .aula{      
@@ -186,34 +187,34 @@ footer{
 }
 
 @media screen and (max-width: 992px){
+    .container1{
+        margin-right: 0;
+    }
+    .aula{ 
+        width: 40%;
+    }
     .container3{
         text-align: center;
     }
-    footer{
-        gap: 10%;
-        padding: 5% 5%;
+    .depoimento{        
+        margin-right: 0;
     }
-}
+}    
 
 @media screen and (max-width: 768px){
     .container1{
         justify-content: center;
-    }
-    .container1 img{ 
-        margin-left: 2%;
-    }
-    .aula h2{
         text-align: center;
+        margin-left: 0;
     }
-    .container3{
-        margin: 7% 0 20% 17%;
+    .msg-inicial{
+        display: flex;        
+        align-items: center;        
     }
-    footer{
-        padding: 5% 10%;
-    }
+    .container1 img{            
+        width: 50%;
+    }        
 }
-
-
 @media screen and (max-width: 480px){
     header{       
         justify-content: center;
@@ -229,6 +230,9 @@ footer{
     }
     .depoimento{
         width: 90%;        
+    }
+    .container3 h2{        
+        font-size: 30px;
     }
     footer{
         justify-content: center;

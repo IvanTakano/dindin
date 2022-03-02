@@ -61,5 +61,10 @@ hr{
     }    
     .info-aula{
         width: 80%;    
+    }    
+}
+@media screen and (max-width: 480px){
+    iframe{
+        width: 98%;
     }
 }

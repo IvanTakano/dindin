@@ -52,6 +52,15 @@ h1{
     .container3{
         text-align: center;
     }
+    .tipos-cursos{
+        width: 85%;
+    }
+    .tipos-cursos img {    
+        width: 25%;                
+    }
+    .descricao p{        
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 480px){
