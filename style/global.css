@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    width: 1440px;
+    max-width: 1440px;
     font-family: "Ubuntu";
 }
 
@@ -12,7 +12,9 @@ header{
     background-color: #2E948A;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;   
+    flex-wrap: wrap; 
+    margin: 0;
 }
 
 header img{
@@ -39,6 +41,7 @@ header img{
 .container1{
     display: flex;    
     margin: 8% 0 0 8%;    
+    flex-wrap: wrap;
 }
 
 .msg-inicial{
@@ -69,24 +72,24 @@ header img{
     text-decoration: none;
 }
 
-.container1 img{
-    width: 501px;
-    height: 511px;    
-    margin: 5% 0 5% 10% ;
+.container1 img{    
+    width: 40%;    
+    height: 10%;
+    margin: 3% 0 5% 10% ;
 }
 
 .container2{
     background-color:#F6F6F6;
     display: flex;
     justify-content: space-around;      
-
+    flex-wrap: wrap;
 }
 
-.aula{
-    height: 270px;
-    width: 344px;        
+.aula{      
+    height: 100%;
+    width: 30%;    
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     justify-content: space-around;
     align-items: center;
     margin: 10% 0 10% 0
@@ -143,17 +146,16 @@ hr{
     margin-left: 0;
 }
 
-footer{
-    height: 207px;
+footer{    
+    height: 200%;
     background-color: #419488;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
-}
-
-footer img{
-    margin-left: 128px;
+    align-items: center;  
+    flex-wrap: wrap;
+    margin: 0;  
+    padding: 3% 10%;
 }
 
 .lista-footer{
@@ -178,8 +180,55 @@ footer img{
     border: 1px solid #FFFFFF;
     border-radius: 62px;
     height: 51px;
-    width: 289px;
-    margin-right: 137px;    
+    width: 289px;      
     align-items: center;
     justify-content: center;    
+}
+
+@media screen and (max-width: 992px){
+    .container3{
+        text-align: center;
+    }
+    footer{
+        gap: 10%;
+        padding: 5% 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container1{
+        justify-content: center;
+    }
+    .container1 img{ 
+        margin-left: 2%;
+    }
+    .container3{
+        margin: 7% 0 20% 17%;
+    }
+    footer{
+        padding: 5% 10%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    header{       
+        justify-content: center;
+    }
+    header img{
+        margin-left: 0;
+    }
+    .aula{
+        width: 80%;
+    }
+    .container3{
+        margin-left: 5%;
+    }
+    .depoimento{
+        width: 90%;        
+    }
+    footer{
+        justify-content: center;
+        gap: 20%;   
+    }
 }

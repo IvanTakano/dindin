@@ -12,8 +12,7 @@
 
 .descricao-blog h1{
     color: #009688;
-    font-size: 47px;
-    
+    font-size: 47px;    
 }
 
 .descricao-blog{
@@ -49,4 +48,27 @@
 .posts p{
     font-size: 17px;
     width: 516px;
+}
+
+@media screen and (max-width: 480px){
+    .container1-blog img{
+        display: none;
+    }
+    .descricao-blog{
+        width: 90%;
+        margin: 4% 0 0 5%;
+    }
+    .posts{
+        margin-left: 10%;
+    }
+    .posts h4{        
+        font-size: 25px;       
+    }
+    .posts img{
+        width: 90%;        
+    }
+    .posts p{
+        font-size: 17px;
+        width: 90%;
+    }
 }

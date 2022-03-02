@@ -33,6 +33,7 @@
     flex-direction: row; 
     justify-content: space-around;
     margin: 7% 0;
+    flex-wrap: wrap;
 }
 
 .aula iframe{
@@ -41,10 +42,24 @@
 }
 
 .info-aula{
-    width: 30%;
-    /* margin-left: 10%; */
+    width: 30%;    
 }
 
 hr{
     margin-left: 5%;
+}
+
+@media screen and (max-width: 768px){
+    .descricao{
+       width: 90%;
+    }
+    .descricao-curso img{
+        display: none;
+    }
+    .aula iframe{        
+        width: 80%;
+    }    
+    .info-aula{
+        width: 80%;    
+    }
 }
