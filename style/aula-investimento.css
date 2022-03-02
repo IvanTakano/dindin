@@ -67,4 +67,7 @@ hr{
     iframe{
         width: 98%;
     }
+    .descricao h1{        
+        font-size: 40px;
+    }
 }

@@ -36,12 +36,15 @@
     color: #FF4081;
     font-size: 50px;
     text-align: center;    
-    padding-top: 7%;    
+    padding-top: 7%;   
 }
 
 .aulas{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;     
 }
 
+.aula{
+    margin-top: 0;
+}
