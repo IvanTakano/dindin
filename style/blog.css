@@ -30,7 +30,11 @@
 .posts{
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 10%;    
+}
+
+.posts a{
+    text-decoration: none;
 }
 
 .posts img{
@@ -42,12 +46,12 @@
     color: #FF4081;
     font-size: 30px;
     margin-top: 19px;
-    margin-bottom: 0;
+    margin-bottom: 0;    
 }
 
 .posts p{
     font-size: 17px;
-    width: 516px;
+    width: 516px;     
 }
 
 @media screen and (max-width: 480px){    
@@ -63,10 +67,10 @@
         font-size: 40px;    
     }
     .posts{
-        margin-left: 10%;
+        margin-left: 10%;        
     }
     .posts h4{        
-        font-size: 25px;       
+        font-size: 25px;             
     }
     .posts img{
         width: 90%;        
